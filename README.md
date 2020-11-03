@@ -3,3 +3,5 @@
 Techtree Unit 4 style guide project
 
 two commits - init and final. SASS did all the work.
+
+Third commit: corrections (images rel path, partials reorg)
