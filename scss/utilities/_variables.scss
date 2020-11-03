@@ -1,0 +1,32 @@
+
+/* ============================================= */
+/*              Variables                     */
+/* ============================================= */
+//variable colors
+
+$primary-color: #58e1c1;
+$secondary-color:#777;
+$link-default-th11:  #51ddfc;
+$error-th9: #e4757a;
+$info-th1: #927bc1;
+$warning-th2:  #fd7856;
+$success-th10: #63cc82;
+
+//lighten button colors
+
+$link-default-th11-light: lighten($link-default-th11, 15%);
+$error-th9-light: lighten($error-th9, 15%);
+$info-th1-light: lighten($info-th1, 15%);
+$warning-th2-light: lighten($warning-th2, 15%);
+$success-th10-light:lighten($success-th10, 15%);
+
+//standard colors
+$white: #fff;
+
+
+
+//breakpoints
+$breakpoint: 768px;
+
+//assorted
+$widest: 100%;

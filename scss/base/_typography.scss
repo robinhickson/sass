@@ -1,0 +1,41 @@
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
+
+/*              Typography Variables             */
+/* ============================================= */
+
+$primary-font: 'Lato', sans-serif;
+
+$font-light: 300;
+$font-bold: 700;
+
+/*          Typography structure                 */
+/* ============================================= */
+
+.headline-primary {
+  color: $primary-color;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  font-weight: $font-light;
+  color: $secondary-color;
+}
+
+.link {
+  color:$link-default-th11;
+  font-weight: $font-bold;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-weight: $font-light;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid $primary-color;
+  border-radius: 5px;
+}

@@ -1,0 +1,29 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: $widest;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    cursor: pointer;
+    &.default:hover{
+      background-color: $link-default-th11-light;}
+    &.success:hover{
+      background-color: $success-th10-light;}
+    &.error:hover{
+      background-color: $error-th9-light;}
+    &.warning:hover{
+      background-color: $warning-th2-light;}
+    &.info:hover{
+      background-color: $info-th1-light;}   
+    
+    }
+  
+  
