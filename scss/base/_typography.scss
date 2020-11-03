@@ -2,15 +2,23 @@
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
-
-
-/*              Typography Variables             */
+/* ============================================= */
+/*              Base styles                      */
 /* ============================================= */
 
-$primary-font: 'Lato', sans-serif;
+* {
+  font-family: $primary-font;
+  color: $secondary-color;
+  box-sizing: border-box;
+}
 
-$font-light: 300;
-$font-bold: 700;
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
 
 /*          Typography structure                 */
 /* ============================================= */
@@ -39,3 +47,4 @@ $font-bold: 700;
   border-left: 8px solid $primary-color;
   border-radius: 5px;
 }
+
